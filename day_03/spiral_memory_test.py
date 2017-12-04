@@ -79,20 +79,17 @@ class SpiralMemoryTest(unittest.TestCase):
     def test_spiral_memory_of_361527_is_326(self):
         self.assertEquals(326, spiral_memory.spiral_memory(361527))
 
-    def test_adjacent_sum_of_1_is_1(self):
-        self.assertEquals(1, spiral_memory.adjacent_sum(1))
+    def test_next_largest_value_of_1_is_2(self):
+        self.assertEquals(2, spiral_memory.next_largest_value(1))
 
-    def test_adjacent_sum_of_2_is_1(self):
-        self.assertEquals(1, spiral_memory.adjacent_sum(2))
+    def test_next_largest_value_of_2_is_4(self):
+        self.assertEquals(4, spiral_memory.next_largest_value(2))
 
-    def test_adjacent_sum_of_3_is_2(self):
-        self.assertEquals(2, spiral_memory.adjacent_sum(3))
+    def test_next_largest_value_of_23_is_25(self):
+        self.assertEquals(25, spiral_memory.next_largest_value(23))
 
-    def test_adjacent_sum_of_4_is_4(self):
-        self.assertEquals(4, spiral_memory.adjacent_sum(4))
-
-    def test_adjacent_sum_of_5_is_5(self):
-        self.assertEquals(5, spiral_memory.adjacent_sum(5))
+    def test_next_largest_value_of_361527_is_363010(self):
+        self.assertEquals(363010, spiral_memory.next_largest_value(361527))
 
 
 if __name__ == '__main__':
