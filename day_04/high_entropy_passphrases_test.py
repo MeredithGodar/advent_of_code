@@ -7,7 +7,7 @@ class HighEntropyPassphrasesTest(unittest.TestCase):
     def test_valid_passphrases(self):
         self.assertEquals(2, high_entropy_passphrases.count_valid_passphrases('test_input_part_1.txt'))
 
-    def test_valid_passphrases(self):
+    def test_valid_passphrases_no_anagrams(self):
         self.assertEquals(3, high_entropy_passphrases.count_valid_passphrases_no_anagrams('test_input_part_2.txt'))
 
 
