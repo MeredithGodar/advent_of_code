@@ -64,5 +64,5 @@ def count_valid_passphrases_no_anagrams(input_file):
 
 
 if __name__ == '__main__':
-    print("The number of valid passphrases is %d" % count_valid_passphrases('input.txt'))
-    print("The number of valid passphrases (excluding anagrams) is %d" % count_valid_passphrases_no_anagrams('input.txt'))
+    print("The number of valid passphrases is %d" % count_valid_passphrases('day_04_input.txt'))
+    print("The number of valid passphrases (excluding anagrams) is %d" % count_valid_passphrases_no_anagrams('day_04_input.txt'))
